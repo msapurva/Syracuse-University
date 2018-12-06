@@ -1,3 +1,59 @@
+# About this Project
+Objective and Focus:
+
+• Due to advent of smart cab companies such as Uber and Lyft, people are preferring smart services over the traditional taxis in NYC
+• The research throws light on the following important issues to be the reason in dip in the usage of Yellow taxis:
+• Information Unavailability:
+• The yellow taxi drivers do not get real-time updates on availability of
+passengers. The drivers spend majority of their time searching for customers
+• Fare negotiation:
+• Availability of smartphone apps for Uber and Lyft helps passengers to be
+informed about the ride prices
+• The yellow cab drivers spend time in making a proposal and waiting to make a
+deal post the effort of finding a customer
+
+
+Focus: Resurgence of Yellow Cabs
+
+• Whether the ride will be profitable for the driver?
+• Does weather and holidays really affect the profitability of driver? • Why these questions:
+• Uber/Lyft Drivers and smart apps have destroyed the remarkable icon cabs
+• Stringent Interviews and Background Checks to achieve driving permits for
+above mentioned smart cabs. Not everyone gets to become their drivers.
+• Hence, adverse effect on employment rate and crime rate
+
+
+Data Description:
+
+• Full Merged Dataset : NYC Yellow Taxi Trip Records + USA Federal Holidays Dataset + NYC Weather Data
+• Number of data points : 12 M
+• Training data points out of Sample Dataset: 600 K
+• Total Features: After cleaning, the total features are 61
+• Cleanliness: Merging, Date time conversion, Imputation, Dummy variables,
+Standardization
+• Label/output to predict: Duration and Total Amount
+
+
+
+# Findings
+
+• The average duration of a trip is about 15-18 minutes • The average total amount is between $10-$19
+• The average fare price is highest for the month of October
+• Longest rides occur at 3:00 PM in the evenings and at 6:00 AM in the morning, the
+distance of the rides is the shortest
+
+Overall, our models for predicting taxi pickups’ total amount and duration in New York city performed well
+The gradient boosting regression model closely followed by the random forest model performed the best
+This was likely due to their unique ability to capture complex feature dependencies
+The rmse for gradient boosting regression model was achieved to be ~$3.71178 for amount and ~87.3163 sec for total duration
+Our results and error analysis for the most part supported our intuitions for the usefulness of features with the exception of holiday feature which was not found important for model performance
+Our model can be used by city planners and yellow taxi drivers in determining where to position yellow taxi cabs and understanding patterns in ridership
+In our future work we plan to implement two models: neural network regression for its capability to automatically tune and model feature interactions Although we used k-means clustering, we aim to achieve better results in the future
+
+
+
+
+
 # ProjectCode
 Project Code 
 

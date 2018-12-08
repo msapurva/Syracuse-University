@@ -24,6 +24,32 @@ deal post the effort of finding a customer
 -  Hence, adverse effect on employment rate and crime rate
 
 
+## Requirements:
+- Python 3.7.0.
+- Pandas
+- Numpy
+- Pyspark 2.4.0
+- Spark 2.4.0
+- xgboost 
+- sklearn
+- matplotlib.pyplot
+- seaborn
+- RandomForestRegressor
+- GBTRegressor
+- RegressionEvaluator
+- VectorAssembler
+- ascii_letters
+- datetime
+- StandardScaler
+- MinMaxScaler
+- Vector
+
+## Installation: 
+pip install pyspark
+
+Project Code : In addition to the requirements, we need to Change these lines to read files locally :
+
+
 ## Data Description:
 
 -  Full Merged Dataset : NYC Yellow Taxi Trip Records + USA Federal Holidays Dataset + NYC Weather Data

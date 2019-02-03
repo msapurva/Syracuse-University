@@ -1,2 +1,2 @@
 # SyracuseUniversity
-'MS DataScience' Projects and coursework @ Syracuse University 
+MS Data Science Projects and coursework @ Syracuse University 

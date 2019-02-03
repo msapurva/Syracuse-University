@@ -1,2 +1,2 @@
 # SyracuseUniversity
-'Master in Information Management + Certification of Advanced Study(CAS) in DataScience' coursework @ Syracuse University 
+'MS DataScience' Projects and coursework @ Syracuse University 
